@@ -4,17 +4,66 @@
 
 # Configure the English version of the site.
 [en]
-  languageCode = "en-us"
-  # contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  languageCode = "en-gb"
+  contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
 
-# Uncomment the lines below to configure your website in a second language.
-#[zh]
-#  languageCode = "zh-Hans"
-#  contentDir = "content/zh"
-#  title = "Chinese website title..."
-#  [zh.params]
-#    description = "Site description in Chinese..."
-#  [[zh.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
+[sk]
+  languageCode = "sk"
+  contentDir = "content/sk"
+  title = "Počúvať miestnu hudbu"
+
+[nl]
+  languageCode = "nl"
+  contentDir = "content/nl"
+  title = "Luister naar lokale muziek"
+
+
+[[sk.menu.main]]
+name = "O nás"
+url = "#about"
+weight = 1
+
+[[nl.menu.main]]
+name = "Over ons"
+url = "#about"
+weight = 1
+
+[[sk.menu.main]]
+name = "Publikácií"
+url = "#publications"
+weight = 2
+
+[[nl.menu.main]]
+name = "Publicaties"
+url = "#publications"
+weight = 2
+
+[[sk.menu.main]]
+name = "Blog"
+url = "#posts"
+weight = 3
+
+[[nl.menu.main]]
+name = "Blog"
+url = "#posts"
+weight = 3
+
+[[sk.menu.main]]
+name = "Prednášky"
+url = "/talk/"
+weight = 8
+
+[[nl.menu.main]]
+name = "Praten"
+url = "/talk/"
+weight = 8
+
+[[sk.menu.main]]
+name = "Kontakt"
+url = "#contact"
+weight = 10
+
+[[nl.menu.main]]
+name = "Contakt"
+url = "#contact"
+weight = 10
