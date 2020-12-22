@@ -27,7 +27,7 @@
   translation: Ďalšie
 
 - id: figure
-  translation: "Figure %d:"
+  translation: "Figure %d:"   # The %d: should stay, it is the automatic numbering
 
 - id: edit_page
   translation: Edit this page
@@ -35,7 +35,7 @@
 # Themes
 
 - id: theme_selector
-  translation: Display preferences
+  translation: Display preferences   # i.e. should it be dark at night
 
 - id: theme_light
   translation: Svetelná
@@ -49,7 +49,7 @@
 # Buttons
 
 - id: btn_preprint
-  translation: Preprint
+  translation: Preprint   ## should stay preprint, this is a pre-publication scientific journal article
 
 - id: btn_pdf
   translation: PDF
@@ -73,7 +73,7 @@
   translation: Project
 
 - id: btn_poster
-  translation: Poster
+  translation: Poster   #as academic poster on a conference
 
 - id: btn_source
   translation: Source Document
@@ -114,7 +114,7 @@
   translation: See all posts
 
 - id: more_talks
-  translation: See all talks
+  translation: See all talks   # talks is the name of public appearances to meet the authors or organizers, they are more events
 
 - id: more_publications
   translation: See all publications
@@ -169,7 +169,7 @@
   translation: Journal article
 
 - id: pub_preprint
-  translation: Preprint
+  translation: Preprint   #should stay preprint
 
 - id: pub_report
   translation: Report
