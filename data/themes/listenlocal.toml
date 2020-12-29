@@ -1,0 +1,18 @@
+# Theme metadata
+name = "listenlocal"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#00348A"  ## These are the icons and small graphical elements
+
+# Menu
+menu_primary = "#4EC0E4"  #this is the menu bar
+menu_text = "#ffffff"
+menu_text_active = "#00348A"
+menu_title = "#ffffff"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 247, 247)"
