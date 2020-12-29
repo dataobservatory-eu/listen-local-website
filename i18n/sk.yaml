@@ -1,16 +1,16 @@
 # Navigation
 
 - id: toggle_navigation
-  translation: Toggle navigation
+  translation: Prepnúť navigáciu
 
 - id: table_of_contents
   translation: Obsah
 
 - id: on_this_page
-  translation: Contents
+  translation: Obsahy
 
 - id: back_to_top
-  translation: Back to top
+  translation: Späť na hornú časť
 
 # General
 
@@ -18,7 +18,7 @@
   translation: Súvisiaci
 
 - id: minute_read
-  translation: min na prečítanie
+  translation: Min na prečítanie
 
 - id: previous
   translation: Predchádzajúce
@@ -27,161 +27,160 @@
   translation: Ďalšie
 
 - id: figure
-  translation: "Figure %d:"   # The %d: should stay, it is the automatic numbering
+  translation: "Číslica %d:"   # The %d: musí zostať, má to automatické číslovanie
 
 - id: edit_page
-  translation: Edit this page
+  translation: Upraviť túto stránku
 
 # Themes
 
 - id: theme_selector
-  translation: Display preferences   # i.e. should it be dark at night
+  translation: Predvoľby zobrazenia   # i.e. v noci má byť tmavé
 
 - id: theme_light
-  translation: Svetelná
+  translation: Svetlá
 
 - id: theme_dark
   translation: Tmavá
 
 - id: theme_auto
-  translation: Automatic
+  translation: Automatické
 
 # Buttons
 
 - id: btn_preprint
-  translation: Preprint   ## should stay preprint, this is a pre-publication scientific journal article
+  translation: Predtlač   ## musí zostať ako predtlač, toto je predbežný vedecký článok v časopise
 
 - id: btn_pdf
   translation: PDF
 
 - id: btn_cite
-  translation: Cite
+  translation: Citovať
 
 - id: btn_slides
-  translation: Slides
+  translation: Kazety
 
 - id: btn_video
   translation: Video
 
 - id: btn_code
-  translation: Code
+  translation: Kódy
 
 - id: btn_dataset
-  translation: Dataset
+  translation: Množina údajov
 
 - id: btn_project
-  translation: Project
+  translation: Projekt
 
 - id: btn_poster
-  translation: Poster   #as academic poster on a conference
+  translation: Plagát   #ako akademický plagát na konferencií
 
 - id: btn_source
-  translation: Source Document
+  translation: Zdrojový dokument
 
 - id: btn_copy
-  translation: Copy
+  translation: Kopírovať
 
 - id: btn_download
-  translation: Download
+  translation: Stiahnuť
 
 # About widget
 
 - id: interests
-  translation: Interests
+  translation: Záujmy
 
 - id: education
-  translation: Education
+  translation: Vzdelanie
 
 - id: user_profile_latest
-  translation: Latest
+  translation: Najnovší
 
 # Accomplishments widget
 
 - id: see_certificate
-  translation: See certificate
+  translation: Zobraziť certifikát
 
 # Experience widget
 
 - id: present
-  translation: Present
+  translation: Prítomný
 
 # Pages widget
 
 - id: more_pages
-  translation: See all
+  translation: Zobraziť všetko
 
 - id: more_posts
-  translation: See all posts
+  translation: Zobraziť všetky príspevky
 
 - id: more_talks
-  translation: See all talks   # talks is the name of public appearances to meet the authors or organizers, they are more events
-
+  translation: Zobraziť všetky prednášky   # prednáška je názov pre verejné vystúpenia s autormi alebo organizátormi, ide o udalosti
 - id: more_publications
-  translation: See all publications
+  translation: Zobraziť všetky publikácie
 
 # Contact widget
 
 - id: contact_name
-  translation: Name
+  translation: Meno
 
 - id: contact_email
   translation: Email
 
 - id: contact_message
-  translation: Message
+  translation: Zpráva
 
 - id: contact_send
-  translation: Send
+  translation: Odoslané
 
 - id: book_appointment
-  translation: Book an appointment
+  translation: Rezervovať si termín
 
 # Publication/Talk details
 
 - id: abstract
-  translation: Abstract
+  translation: Abstrakt
 
 - id: publication
-  translation: Publication
+  translation: Publikácia
 
 - id: publication_type
-  translation: Type
+  translation: Typ
 
 - id: date
   translation: Dátum
 
 - id: last_updated
-  translation: Last updated on
+  translation: Naposledy aktualizované na
 
 - id: event
-  translation: Event
+  translation: Udalosť
 
 - id: location
-  translation: Location
+  translation: Poloha
 
 - id: pub_uncat
-  translation: Uncategorized
+  translation: Nezaradené
 
 - id: pub_conf
-  translation: Conference paper
+  translation: Konferenčný príspevok
 
 - id: pub_journal
-  translation: Journal article
+  translation: Článok v časopise
 
 - id: pub_preprint
-  translation: Preprint   #should stay preprint
+  translation: Predtlač   #by mala zostať predtlač
 
 - id: pub_report
-  translation: Report
+  translation: Hlásenie
 
 - id: pub_book
-  translation: Book
+  translation: Kniha
 
 - id: pub_book_section
-  translation: Book section
+  translation: Knižný úsek
 
 - id: pub_thesis
-  translation: Thesis
+  translation: Diplomová práca
 
 - id: pub_patent
   translation: Patent
@@ -189,38 +188,38 @@
 # Project details
 
 - id: open_project_site
-  translation: Go to Project Site
+  translation: Prejsť na Stránku Projektu
 
 # Content types for default archive page titles and search results
 
 - id: posts
-  translation: Posts
+  translation: Príspevky
 
 - id: publications
-  translation: Publications
+  translation: Publikácie
 
 - id: talks
-  translation: Talks
+  translation: Prednášky
 
 - id: projects
-  translation: Projects
+  translation: Projekty
 
 - id: slides
-  translation: Slides
+  translation: Kazety
 
 # Search
 
 - id: search
-  translation: Search
+  translation: Vyhľadať
 
 - id: search_placeholder
-  translation: Search...
+  translation: Hľadať...
 
 - id: search_results
-  translation: results found
+  translation: Nájdené výsledky
 
 - id: search_no_results
-  translation: No results found
+  translation: Nenajdené žiadne výsledky
 
 # Error 404
 
@@ -228,15 +227,15 @@
   translation: Stránka nenájdená
 
 - id: 404_recommendations
-  translation: Perhaps you were looking for one of these?
+  translation: Možno ste hľadali jeden z týchto?
 
 # Cookie consent
 
 - id: cookie_message
-  translation: This website uses cookies to ensure you get the best experience on our website.
+  translation: Táto webstránka používa cookies aby ste mali z našej stránky čo najlepší zážitok.
 
 - id: cookie_dismiss
-  translation: Got it!
+  translation: Mám to!
 
 - id: cookie_learn
-  translation: Uč sa viac
+  translation: Nauč sa viac
