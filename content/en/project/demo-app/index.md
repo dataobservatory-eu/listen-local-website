@@ -1,6 +1,6 @@
 ---
 title: Demo Recommendation App
-summary: An example of using the in-built project page.
+summary: Demonstration of a locally relevant alternative recommendation system.
 tags:
 - recommendations
 date: "2020-12-01T00:00:00Z"
