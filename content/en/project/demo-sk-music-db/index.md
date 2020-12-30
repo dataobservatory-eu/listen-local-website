@@ -53,43 +53,44 @@ We narrowed down this long-list with the help of a Slovak native-speaker musicol
 
 In the demo version we tried to limit the data written-in, and we only concentrated to Spotify (explained here why.)  The following features are attached to each artist’s Spotify ID:  [don’t translate labels, these are identifiers in the database files if somebody downloads them.]
 
-•	`spotify_popularity`: A number between 0 and 100 describing the artist’s popularity based on stream counts on the Spotify platform.
-•	`spotify_followers`: An artist’s total number of subscribers on the Spotify platform.
-•	`total_reccomendations`: The number of recommendations associated with each artist after three iterations of our algorithm. Artists with zero recommendations are practically `invisible` for Spotify, and likely never recommended. One of our main goals is to avoid this `cold start` problem, which affects about 15% of Slovak artists in 2020. [don’t translate cold start]
-•	`spotify_genres`: Up to three genres associated with each artist.
-•	`any_slovak_release`: A value of 1 is assigned if the artist has released some work in Slovakia, 0 otherwise.
-•	`slovak_release_pct`: The percentage of sound recordings released in Slovakia.
-•	`any_slovak_title`: A value of 1 is assigned if the artist has some work with a title in Slovakian, 0 otherwise.
-•	`all_slovak_title`: A value of 1 is assigned if all the artist’s work is in the Slovak language, 0 otherwise.
-•	`all_english_title`: A value of 1 is assigned if all the artist’s work is in Slovak language, 0 otherwise.
-•	`known_slovak_city`: Slovakian cities associated with the artist.
-•	`considered_czech`: A value of 1 is assigned if the artist is also considered to be Czech. Our greatest challenge is to define the boundaries of Slovakness and being “Czech”.
-•	`popular_song_titles`: A short selection of the artist’s most popular songs.
-•	`latest_popular_releases`: The date of the artist’s most recent popular releases.
-•	`spotify_url`: The artist’s or bands’ official Spotify URL. 
-•	`official_website_url`: The artist’s or band’s official website.
+* `spotify_popularity`: A number between 0 and 100 describing the artist’s popularity based on stream counts on the Spotify platform.
+* `spotify_followers`: An artist’s total number of subscribers on the Spotify platform.
+* `spotify_genre`: Up to three genres associated with each artist.
+* `total_reccomendations`: The number of recommendations associated with each artist after three iterations of our algorithm. Artists with zero recommendations are practically `invisible` for Spotify, and likely never recommended. One of our main goals is to avoid this `cold start` problem, which affects about 15% of Slovak artists in 2020. [don’t translate cold start]
+* `spotify_genres`: Up to three genres associated with each artist.
+* `any_slovak_release`: A value of 1 is assigned if the artist has released some work in Slovakia, 0 otherwise.
+* `slovak_release_pct`: The percentage of sound recordings released in Slovakia.
+* `any_slovak_title`: A value of 1 is assigned if the artist has some work with a title in Slovakian, 0 otherwise.
+* `all_slovak_title`: A value of 1 is assigned if all the artist’s work is in the Slovak language, 0 otherwise.
+* `all_english_title`: A value of 1 is assigned if all the artist’s work is in Slovak language, 0 otherwise.
+* `known_slovak_city`: Slovakian cities associated with the artist.
+* `considered_czech`: A value of 1 is assigned if the artist is also considered to be Czech. Our greatest challenge is to define the boundaries of Slovakness and being “Czech”.
+* `popular_song_titles`: A short selection of the artist’s most popular songs.
+* `latest_popular_releases`: The date of the artist’s most recent popular releases.
+* `spotify_url`: The artist’s or bands’ official Spotify URL. 
+* `official_website_url`: The artist’s or band’s official website.
 
 ## Sound Recordings
 The Demo Slovak Music Database contains up to ten sound recordings associated with 0 Slovakian artists, comprising a total of 3937 unique tracks. When the Spotify API is queried for top track recommendations, 19 artists do not yield any results. For each other artist, the following features are included: 
 [Footnote 2: A full list of the data Spotify keeps for each track can be consulted at https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/]:
-•	`danceability`: An approximation to how suitable a track is for dancing, considering musical elements such as tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
-•	`energy`: A perceptual measure of intensity and activity aggregating features including dynamic range, perceived loudness, timbre, onset rate, and general entropy.
-•	`key`: An approximate overall key for the track. Spotify expresses this in pitch notation, and here this is converted to the notation’s tonal counterparts.
-•	`loudness`: Average loudness of a track in decibels (dB).
+* `danceability`: An approximation to how suitable a track is for dancing, considering musical elements such as tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
+* `energy`: A perceptual measure of intensity and activity aggregating features including dynamic range, perceived loudness, timbre, onset rate, and general entropy.
+* `key`: An approximate overall key for the track. Spotify expresses this in pitch notation, and here this is converted to the notation’s tonal counterparts.
+* `loudness`: Average loudness of a track in decibels (dB).
 
-•	`mode`: An approximation to a major-minor modality: 0 is minor, 1 is major.
+* `mode`: An approximation to a major-minor modality: 0 is minor, 1 is major.
 
-•	`speechiness`: Detects the presence of spoken words in a track on a scale between 0 and 1.0.
-•	`acousticness`: A confidence measure from 0.0 to 1.0 of whether the track is acoustic. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.
-•	`liveness`: A confidence measure from 0.0 to 1.0 of whether the track is live depending on the detection of an audience in the recording.
+* `speechiness`: Detects the presence of spoken words in a track on a scale between 0 and 1.0.
+* `acousticness`: A confidence measure from 0.0 to 1.0 of whether the track is acoustic. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.
+* `liveness`: A confidence measure from 0.0 to 1.0 of whether the track is live depending on the detection of an audience in the recording.
 
-•	`valence`: An approximate measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
+* `valence`: An approximate measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
 
-•	`tempo`: The overall estimated tempo of a track in beats per minute (BPM).
+* `tempo`: The overall estimated tempo of a track in beats per minute (BPM).
 
-•	`duration (ms)`: Track length in milli-seconds.
+* `duration (ms)`: Track length in milli-seconds.
 
-•	`time_signature`: An overall approximation to the track’s beats per measure.
+* `time_signature`: An overall approximation to the track’s beats per measure.
 
 ## Genres
 
