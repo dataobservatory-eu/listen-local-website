@@ -47,6 +47,8 @@ Naša aplikácia pracuje na princípe užitočnosti – hoci vychádza z pôvodn
 
 `Nalaď sa lokálne` vyberie veľký počet skladieb a následne ich porovnáva s hudbou na vzorovom playliste. Vďaka využitiu „podobnosti“ nakoniec vznikne playlist, ktorý spĺňa kritériá zadané používateľom.
 
+{{< figure library="true" src="plots/recommendation_flowchart_plot_sk.png" title="Our recommendation flow" >}}
+
 Väčšina odporúčacích služieb používa tri druhy informácií: informácie o hudbe ako takej, informácie o používateľoch, ktorí ju počúvali alebo hrali, ľubovoľné textové informácie dostupné z údajov poskytnutých umelcom samotným alebo vydavateľstvom, prípadne informácie o kapele z tlače. Snažíme sa poukázať na to, že ak má systém pracovať pre vás, umelcov, musíte mať kontrolu nad vstupnými údajmi. Napríklad, ako by ste opísali vašu hudbu tak, aby jej charakter Spotify, YouTube alebo `Nalaď sa lokálne` správne pochopili? Na ukážku sme použili našu demo verziu slovenskej hudobnej databázy (Demo Slovak Music Database). Databáza je voľne prístupná a využíva princíp opt-in, opt-out. Slovenskí umelci a muzikológovia môžu ovplyvňovať spôsob, akým sa informácie spracúvajú. 
 
 Chceme tiež poukázať na skutočnosť, že na propagáciu hudobných vydavateľstiev, autorských kolektívov alebo hudobnej produkcie danej krajiny je veľmi dôležité nastaviť si ciele šikovne. Z etnomuzikologického hľadiska nestačí povedať, že by sme v playliste chceli mať 20 % slovenskej hudby. V našom projekte sme preto použili stupne „slovenskosti“.
