@@ -1,12 +1,12 @@
 ---
-# Display name
+# Display name this is the English website
 title: Listen Slovak
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Odporúčanie hudby podľa geografickej polohy
+role: Locally Relevant Music Recommendations
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -56,4 +56,4 @@ email: ""
 highlight_name: false
 ---
 
-Listen Local je otvorená iniciatíva určená hudobníkom a organizáciám pôsobiacim v oblasti hudby. Využíva otvorenú umelú inteligenciu a jej cieľom je zviditeľniť hudbu na internete aj mimo neho s ohľadom na geografickú polohu poslucháča alebo miesta pôsobenia umelca. Listen Slovak je náš pilotný projekt, a jeho súčasťou je štúdia realizovateľnosti. Projekt vznikol v spolupráci so Slovenským ochranným zväzom autorským pre práva k hudobným dielam (SOZA), s podporou Fondu na podporu umenia (FPU) a Consolidated Independent, distribútorom nezávislej hudby z Londýna. Cieľom projektu bolo zistiť, prečo sa istá časť slovenskej hudby neobjavuje v rádiách ani na streamovacích službách, a vytvoriť databázu a demo aplikáciu, ktorá takúto hudbu dokáže nájsť a ponúknuť používateľom.
+Listen Local is an open initiative for musicians and music organizations to create new, open AI applications that make locally relevant music visible online and offline.  Listen Slovak is our first demonstration project, accompanied with a Feasibility Study. It was created jointly with the Slovak Performing Rights Society, and with the support of the Slovak Arts Council and Consolidated Independent, a music distributor company for independent labels and artist.  Our aim was to understand why some Slovak music cannot be heard on radio and on streaming platforms, and to create a database and a demo application that makes that music discoverable.
