@@ -1,6 +1,6 @@
 ---
-title: Nalaď sa lokálne - Demo App
-summary: An example of using the in-built project page.
+title: Listen Local App
+summary: Odporúčania domácej hudobnej tvorby.
 tags:
 - recommendations
 date: "2020-12-01T00:00:00Z"
@@ -30,14 +30,14 @@ url_video: ""
 slides: ""
 ---
 
-## Zoznámte sa s aplikáciou `Nalaď sa lokálne`
+## Zoznámte sa s aplikáciou Listen Local
 
-Naša aplikácia `Nalaď sa lokálne` vyžíva strojové učenie. Systém presne sleduje zadaný cieľ – vyhľadáva hudbu – a pri tom sa neustále učí a zdokonaľuje. Treba sa však opýtať, kto tento cieľ určuje? Webstránka či služba, ktorá sa snaží, aby ste na nej strávili čo najviac času a pozreli si čo najviac reklám? Digitálna streamovacia služba, ktorá chce, aby ste počúvali len hudbu dostupnú na nej? Alebo vy sami?
+Naša aplikácia `Listen Local` vyžíva strojové učenie. Systém presne sleduje zadaný cieľ – vyhľadáva hudbu – a pri tom sa neustále učí a zdokonaľuje. Treba sa však opýtať, kto tento cieľ určuje? Webstránka či služba, ktorá sa snaží, aby ste na nej strávili čo najviac času a pozreli si čo najviac reklám? Digitálna streamovacia služba, ktorá chce, aby ste počúvali len hudbu dostupnú na nej? Alebo vy sami?
 
 V našej demo aplikácii si nastavujete cieľ sami. Ako východiskový bod môžete použiť zoznam najhranejších skladieb rádia, playlist rádia, alebo váš vlastný. Cieľ si nastavíte podobne, ako hudobní dramaturgovia nastavujú pomer istej hudby v danom rádiu. Chcete mať v playliste 20 % skladieb v slovenčine? Alebo 15 % skladieb od autorov, ktorí sa za Slovákov považujú? Zaujíma vás hudba z Holandska? Alebo chcete mať v playliste 20 % vydaných Slovákmi na Slovensku?
 V našej demo aplikácii sme použili upravený algoritmus zo Spotify. Spotify považujeme za najlepší proprietárny software na svete, ktorý má zároveň dostatočne otvorené rozhranie pre programovanie aplikácií (API). Hoci Spotify svoj algoritmus ani presné nastavenie cieľov neprezradí, poskytuje nám dostatok informácii o hudbe, ktorú by za istých okolností dokázal odporučiť. Jeho systém je zároveň relatívne dobre zdokumentovaný, vďaka čomu máme pomerne dobrú predstavu o dianí za oponou. Pre väčšinu DSP systémov to neplatí. 
 
-Rovnako ako Spotify, aj naša demo aplikácia odporúča skladby alebo nahrávky. Na rozdiel od Spotify vám však aplikácia `Nalaď sa lokálne` umožňuje zvoliť si vlastný cieľ – teda vytvorenie výsledného playlistu na základe vašich preferencií. Okrem toho vám prezradíme všetky kroky. Podobne ako Spotify alebo YouTube, aj `Nalaď sa lokálne` najprv vyberie veľký počet kandidátov – skladieb, ktoré by sa vám mohli páčiť. Následne výber zužuje podľa toho, čo považuje za najbližšie vášmu východiskovému – vzorovému – playlistu.
+Rovnako ako Spotify, aj naša demo aplikácia odporúča skladby alebo nahrávky. Na rozdiel od Spotify vám však aplikácia `Listen Local` umožňuje zvoliť si vlastný cieľ – teda vytvorenie výsledného playlistu na základe vašich preferencií. Okrem toho vám prezradíme všetky kroky. Podobne ako Spotify alebo YouTube, aj `Listen Local` najprv vyberie veľký počet kandidátov – skladieb, ktoré by sa vám mohli páčiť. Následne výber zužuje podľa toho, čo považuje za najbližšie vášmu východiskovému – vzorovému – playlistu.
 
 Naša aplikácia pracuje na princípe užitočnosti – hoci vychádza z pôvodných odporúčaní Spotify, priraďuje väčšiu váhu skladbám, ktoré spĺňajú vami zadané kritériá.
 
@@ -45,11 +45,11 @@ Naša aplikácia pracuje na princípe užitočnosti – hoci vychádza z pôvodn
 2.	Druhú najväčšiu váhu dostanú priradenú umelci, ktorých skladby spĺňajú zadané kritériá, a podľa Spotify sú podobní umelcom z vášho vzorového playlistu. Čo považuje algoritmus Spotify za „podobnosť“? Sleduje muzikologické a opisné črty, a tiež interakciu používateľa s touto hudbou. Ak algoritmus považuje umelca za podobného vzorovému playlistu, s veľkou pravdepodobnosťou mu podobný naozaj je.
 3.	Tretia najväčšia váha je priradená skladbám, ktoré majú spoločný žáner s niektorými skladbami na vzorovom playliste, a zároveň sú slovenské.
 
-`Nalaď sa lokálne` vyberie veľký počet skladieb a následne ich porovnáva s hudbou na vzorovom playliste. Vďaka využitiu „podobnosti“ nakoniec vznikne playlist, ktorý spĺňa kritériá zadané používateľom.
+`Listen Local` vyberie veľký počet skladieb a následne ich porovnáva s hudbou na vzorovom playliste. Vďaka využitiu „podobnosti“ nakoniec vznikne playlist, ktorý spĺňa kritériá zadané používateľom.
 
 {{< figure library="true" src="plots/recommendation_flowchart_plot_sk.png" title="Our recommendation flow" >}}
 
-Väčšina odporúčacích služieb používa tri druhy informácií: informácie o hudbe ako takej, informácie o používateľoch, ktorí ju počúvali alebo hrali, ľubovoľné textové informácie dostupné z údajov poskytnutých umelcom samotným alebo vydavateľstvom, prípadne informácie o kapele z tlače. Snažíme sa poukázať na to, že ak má systém pracovať pre vás, umelcov, musíte mať kontrolu nad vstupnými údajmi. Napríklad, ako by ste opísali vašu hudbu tak, aby jej charakter Spotify, YouTube alebo `Nalaď sa lokálne` správne pochopili? Na ukážku sme použili našu demo verziu slovenskej hudobnej databázy (Demo Slovak Music Database). Databáza je voľne prístupná a využíva princíp opt-in, opt-out. Slovenskí umelci a muzikológovia môžu ovplyvňovať spôsob, akým sa informácie spracúvajú. 
+Väčšina odporúčacích služieb používa tri druhy informácií: informácie o hudbe ako takej, informácie o používateľoch, ktorí ju počúvali alebo hrali, ľubovoľné textové informácie dostupné z údajov poskytnutých umelcom samotným alebo vydavateľstvom, prípadne informácie o kapele z tlače. Snažíme sa poukázať na to, že ak má systém pracovať pre vás, umelcov, musíte mať kontrolu nad vstupnými údajmi. Napríklad, ako by ste opísali vašu hudbu tak, aby jej charakter Spotify, YouTube alebo `Listen Local` správne pochopili? Na ukážku sme použili našu demo verziu slovenskej hudobnej databázy (Demo Slovak Music Database). Databáza je voľne prístupná a využíva princíp opt-in, opt-out. Slovenskí umelci a muzikológovia môžu ovplyvňovať spôsob, akým sa informácie spracúvajú. 
 
 Chceme tiež poukázať na skutočnosť, že na propagáciu hudobných vydavateľstiev, autorských kolektívov alebo hudobnej produkcie danej krajiny je veľmi dôležité nastaviť si ciele šikovne. Z etnomuzikologického hľadiska nestačí povedať, že by sme v playliste chceli mať 20 % slovenskej hudby. V našom projekte sme preto použili stupne „slovenskosti“.
 

@@ -1,6 +1,6 @@
 ---
 # Display name for Slovak website
-title: Nalaď sa lokálne
+title: Listen Local
 
 # Is this the primary user of the site?
 superuser: true
