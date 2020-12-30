@@ -7,18 +7,18 @@
   translation: Obsah
 
 - id: on_this_page
-  translation: Obsahy
+  translation: Obsah stránky
 
 - id: back_to_top
-  translation: Späť na hornú časť
+  translation: Návrat hore
 
 # General
 
 - id: related
-  translation: Súvisiaci
+  translation: Súvisiace
 
 - id: minute_read
-  translation: Min na prečítanie
+  translation: min. na prečítanie
 
 - id: previous
   translation: Predchádzajúce
@@ -27,7 +27,7 @@
   translation: Ďalšie
 
 - id: figure
-  translation: "Číslica %d:"   # The %d: musí zostať, má to automatické číslovanie
+  translation: "Číslica %d:"   # %d: treba ponechať, číslovanie je automatické
 
 - id: edit_page
   translation: Upraviť túto stránku
@@ -35,21 +35,21 @@
 # Themes
 
 - id: theme_selector
-  translation: Predvoľby zobrazenia   # i.e. v noci má byť tmavé
+  translation: Predvoľby zobrazenia   # napr. v noci má byť tmavé
 
 - id: theme_light
-  translation: Svetlá
+  translation: Svetlé zobrazenie
 
 - id: theme_dark
-  translation: Tmavá
+  translation: Tmavé zobrazenie
 
 - id: theme_auto
-  translation: Automatické
+  translation: Automatické zobrazenie
 
 # Buttons
 
 - id: btn_preprint
-  translation: Predtlač   ## musí zostať ako predtlač, toto je predbežný vedecký článok v časopise
+  translation: Preprint   # treba ponechať ako preprint, je to článok vo vedeckom časopise, ktorý ešte nebol riadne vydaný/recenzovaný
 
 - id: btn_pdf
   translation: PDF
@@ -58,22 +58,22 @@
   translation: Citovať
 
 - id: btn_slides
-  translation: Kazety
+  translation: Slidy
 
 - id: btn_video
   translation: Video
 
 - id: btn_code
-  translation: Kódy
+  translation: Kód
 
 - id: btn_dataset
-  translation: Množina údajov
+  translation: Súbor dát
 
 - id: btn_project
   translation: Projekt
 
 - id: btn_poster
-  translation: Plagát   #ako akademický plagát na konferencií
+  translation: Plagát   # napr. plagát na akademickej konferencii
 
 - id: btn_source
   translation: Zdrojový dokument
@@ -93,7 +93,7 @@
   translation: Vzdelanie
 
 - id: user_profile_latest
-  translation: Najnovší
+  translation: Najnovšie
 
 # Accomplishments widget
 
@@ -103,18 +103,19 @@
 # Experience widget
 
 - id: present
-  translation: Prítomný
+  translation: Súčasnosť
 
 # Pages widget
 
 - id: more_pages
-  translation: Zobraziť všetko
+  translation: Zobraziť všetky strany
 
 - id: more_posts
   translation: Zobraziť všetky príspevky
 
 - id: more_talks
-  translation: Zobraziť všetky prednášky   # prednáška je názov pre verejné vystúpenia s autormi alebo organizátormi, ide o udalosti
+  translation: Zobraziť všetky prednášky   # prednáška je verejná diskusia s autormi alebo organizátormi, je to verejné podujatie
+
 - id: more_publications
   translation: Zobraziť všetky publikácie
 
@@ -127,10 +128,10 @@
   translation: Email
 
 - id: contact_message
-  translation: Zpráva
+  translation: Správa
 
 - id: contact_send
-  translation: Odoslané
+  translation: Odoslať
 
 - id: book_appointment
   translation: Rezervovať si termín
@@ -144,40 +145,40 @@
   translation: Publikácia
 
 - id: publication_type
-  translation: Typ
+  translation: Typ publikácie
 
 - id: date
   translation: Dátum
 
 - id: last_updated
-  translation: Naposledy aktualizované na
+  translation: Naposledy aktualizované
 
 - id: event
-  translation: Udalosť
+  translation: Podujatie
 
 - id: location
-  translation: Poloha
+  translation: Miesto vydania/konania
 
 - id: pub_uncat
   translation: Nezaradené
 
 - id: pub_conf
-  translation: Konferenčný príspevok
+  translation: Príspevok na konferenciu
 
 - id: pub_journal
   translation: Článok v časopise
 
 - id: pub_preprint
-  translation: Predtlač   #by mala zostať predtlač
+  translation: Preprint   # treba ponechať ako preprint
 
 - id: pub_report
-  translation: Hlásenie
+  translation: Správa
 
 - id: pub_book
   translation: Kniha
 
 - id: pub_book_section
-  translation: Knižný úsek
+  translation: Časť knihy
 
 - id: pub_thesis
   translation: Diplomová práca
@@ -188,7 +189,7 @@
 # Project details
 
 - id: open_project_site
-  translation: Prejsť na Stránku Projektu
+  translation: Prejsť na stránku projektu
 
 # Content types for default archive page titles and search results
 
@@ -205,7 +206,7 @@
   translation: Projekty
 
 - id: slides
-  translation: Kazety
+  translation: Slidy
 
 # Search
 
@@ -219,23 +220,23 @@
   translation: Nájdené výsledky
 
 - id: search_no_results
-  translation: Nenajdené žiadne výsledky
+  translation: Neboli nenajdené žiadne výsledky
 
 # Error 404
 
 - id: page_not_found
-  translation: Stránka nenájdená
+  translation: Stránka nebola nenájdená
 
 - id: 404_recommendations
-  translation: Možno ste hľadali jeden z týchto?
+  translation: Možno ste hľadali niečo z tohto?
 
 # Cookie consent
 
 - id: cookie_message
-  translation: Táto webstránka používa cookies aby ste mali z našej stránky čo najlepší zážitok.
+  translation: Pre skvalitnenie našich služieb využívame súbory cookies.
 
 - id: cookie_dismiss
-  translation: Mám to!
+  translation: Rozumiem
 
 - id: cookie_learn
-  translation: Nauč sa viac
+  translation: Zistiť viac
