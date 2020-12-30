@@ -1,6 +1,6 @@
 ---
 title: Demo Slovak Music Database
-summary: Demonstration of a database that supports radio quota monitoring and muisc promotion on digital streaming and media platforms.
+summary: Demonstration of a database that supports radio quota monitoring and music promotion on digital streaming and media platforms.
 tags:
 - recommendations
 date: "2020-12-01T00:00:00Z"
