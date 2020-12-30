@@ -9,15 +9,20 @@ url = "#about"
 weight = 1
 
 [[main]]
-name = "Publikácií"
+name = "Publikácie"
 url = "#publications"
-weight = 2
+weight = 3
+
+[[main]]
+name = "Projekty"
+url = "#projects"
+weight = 4
 
 
 [[main]]
 name = "Blog"
 url = "#posts"
-weight = 3
+weight = 2
 
 
 [[main]]
