@@ -1,12 +1,12 @@
 ---
 # Display name for Slovak website
-title: Listen Slovak
+title: Nalaď sa lokálne
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Odporúčanie hudby podľa geografickej polohy
+role: Odporúčania domácej hudobnej tvorby
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -56,5 +56,4 @@ email: ""
 highlight_name: false
 ---
 
-Listen Local je otvorená iniciatíva určená hudobníkom a organizáciám pôsobiacim v oblasti hudby. Využíva otvorenú umelú inteligenciu a jej cieľom je zviditeľniť hudbu na internete aj mimo neho s ohľadom na geografickú polohu poslucháča alebo miesta pôsobenia umelca. Listen Slovak je náš pilotný projekt, a jeho súčasťou je štúdia realizovateľnosti. Projekt vznikol v spolupráci so Slovenským ochranným zväzom autorským pre práva k hudobným dielam (SOZA), s podporou Fondu na podporu umenia (FPU) a Consolidated Independent, distribútorom nezávislej hudby z Londýna. Cieľom projektu bolo zistiť, prečo sa istá časť slovenskej hudby neobjavuje v rádiách ani na streamovacích službách, a vytvoriť databázu a demo aplikáciu, ktorá takúto hudbu dokáže nájsť a ponúknuť používateľom.
-
+`Nalaď sa lokálne` je otvorená iniciatíva určená hudobníkom a organizáciám pôsobiacim v oblasti hudby. Využíva otvorenú umelú inteligenciu a jej cieľom je zviditeľniť hudbu na internete aj mimo neho s ohľadom na geografickú polohu poslucháča alebo miesta pôsobenia umelca. Listen Slovak je náš pilotný projekt, a jeho súčasťou je štúdia realizovateľnosti. Projekt vznikol v spolupráci so Slovenským ochranným zväzom autorským pre práva k hudobným dielam (SOZA), s podporou Fondu na podporu umenia (FPU) a Consolidated Independent, distribútorom nezávislej hudby z Londýna. Cieľom projektu bolo zistiť, prečo sa istá časť slovenskej hudby neobjavuje v rádiách ani na streamovacích službách, a vytvoriť databázu a demo aplikáciu, ktorá takúto hudbu dokáže nájsť a ponúknuť používateľom.
