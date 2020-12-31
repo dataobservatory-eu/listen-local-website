@@ -59,7 +59,7 @@ V demo verzii sme sa snažili obmedziť množstvo zadaných údajov a zamerali s
 * `popularity`: hodnota od 0 do 100, ktoré na základe počtu prehraní na Spotify opisuje obľúbenosť umelca.
 * `followers`: celkový počet používateľov, ktorí na Spotify umelca sledujú.
 * `genre`: až tri žánre na umelca.
-* `total_recommendations`: počet odporúčaní súvisiacich s daným umelcom po troch iteráciách algoritmu. Umelci s nulovou hodnotou odporúčaní sú pre Spotify prakticky neviditeľní a pravdepodobne nebudú odporúčaní nikdy. Jedným z našich hlavných cieľov je vyhnúť sa tzv. cold start-u, ktorý v roku 2020 postihol približne 15 % slovenských umelcov.
+* `total_recommendations`: počet odporúčaní súvisiacich s daným umelcom po troch iteráciách algoritmu. Umelci s nulovou hodnotou odporúčaní sú pre Spotify prakticky neviditeľní a pravdepodobne nebudú odporúčaní nikdy. Jedným z našich hlavných cieľov je vyhnúť sa tzv. `cold start`-u, ktorý v roku 2020 postihol približne 15 % slovenských umelcov.
 * `genres``: až tri žánre na umelca.
 * `any_slovak_release`: ak umelec vydal nahrávky na Slovensku, priradí sa hodnota 1, inak sa priradí 0.
 * `slovak_release_pct`: % nahrávok umelca vydaných na Slovensku.
