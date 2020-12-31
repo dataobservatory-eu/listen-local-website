@@ -46,11 +46,16 @@ Umelci a hudobné vydavateľstvá boli do databázy zaradené na základe dobrov
 
 ### Vyradenie z databázy
 Vyradenie z databázy je v tejto fáze veľmi jednoduché – stačí, ak nám dáte vedieť, že v nej naďalej nechcete byť zaradení.
-Údaje v databáze
+
+### Údaje v databáze
 Vhodný typ údajov do databázy sme zvolili pomerne subjektívne. Nemohli – a ani nechceli – sme totiž nakladať s osobnými údajmi, ktoré spadajú pod smernicu GDPR. Podľa v súčasnosti platnej vysielacej kvóty sú za slovenských umelcov považovaní tí, ktorí majú na území SR trvalý pobyt. Toto kritérium nebolo pre nás celkom vhodné, keďže trvalý pobyt patrí medzi osobné údaje a zosnulí umelci ho, prirodzene, nemajú.
-Zvolili sme alternatívne riešenie a pripravili dlhý zoznam kandidátov na základe preferencií slovenských poslucháčov. Na začiatku sme vybrali umelcov, ktorí sa objavili v rebríčkoch rádií, na konkrétnych slovenských playlistoch v Spotify, alebo sami seba opisujú slovíčkom „slovenský, slovenská“, napr. „slovenský rock“ alebo „slovenský hip-hop“. Na Wikipédii sme si prečítali ich anglické biografie rozdelené na ženskú a mužskú kategóriu.
+
+Zvolili sme alternatívne riešenie a pripravili dlhý zoznam kandidátov na základe preferencií slovenských poslucháčov. Na začiatku sme vybrali umelcov, ktorí sa objavili v rebríčkoch rádií, na konkrétnych slovenských playlistoch v Spotify, alebo sami seba opisujú slovíčkom „slovenský, slovenská“, napr. `Slovak rock` alebo `Slovak hip-hop`. Na Wikipédii sme si prečítali ich anglické biografie rozdelené na ženskú a mužskú kategóriu.
+
 Muzikologička Dominika Semaňáková, pôvodom zo Slovenska, nám pomohla určiť, ktorých umelcov by sme naozaj mali považovať za slovenských. Kritériá boli nasledovné – známe miesto pôsobenia (teda kde umelec alebo skupina väčšinou pôsobí), miesto narodenia, miesto úmrtia, jazyk textov, jazyk názvu skladby a ďalšie verejne dostupné informácie o umelcovi.
+
 V demo verzii sme sa snažili obmedziť množstvo zadaných údajov a zamerali sme sa len na Spotify (dôvody si môžete prečítať tu ). Ku každému Spotify ID sú priradené nasledujúce údaje:
+
 * `popularity`: hodnota od 0 do 100, ktoré na základe počtu prehraní na Spotify opisuje obľúbenosť umelca.
 * `followers`: celkový počet používateľov, ktorí na Spotify umelca sledujú.
 * `genre`: až tri žánre na umelca.
@@ -79,6 +84,3 @@ Všetci vieme, že pri vyhľadávaní a výbere nových hudobných diel je žán
 Digitálne streamovacie služby a internetové stránky zvyčajne využívajú umelú inteligenciu, ktorá vychádza z anglických pomenovaní žánrov. Preto je nesmierne dôležité správne pochopiť a používať slovenské a anglické definície jednotlivých žánrov. Popová skladba, ktorá je mylne označená ako `rock` sa môže stať neviditeľnou, pretože nevyhovuje vkusu fanúšikov „rocku“. Používatelia služby ju preskočia a umelá inteligencia sa naučí, že táto skladba je „neobľúbená“. Ak by sme ju však ponúkli fanúšikom `pop`u, mohla by sa ujať.
 
 Tabuľka žánrov v našej databáze mapuje hypotetické rozdiely medzi „slovenskými“ žánrami, napr. `Slovak indie` či `Slovak jazz` a žánrami iných krajín, napr. `Belgian indie` alebo `Japanese jazz`. Tieto rozdiely sú dôležitou súčasťou našej databázy a ich správne rozlíšenie vyžaduje širší konsenzus hudobných dramaturgov, promotérov hudby v zahraničí, hudobných vydavateľstiev, umelcami a odborníkov v oblasti počítačovej muzikológie. Zaraďovanie skladieb do našej databázy ukazuje, že nedostatočné povedomie o žánrovom názvosloví globálnych streamovacích služieb je jedným z hlavných dôvodov nízkej viditeľnosti slovenskej hudby na týchto platformách. 
-
-
-
