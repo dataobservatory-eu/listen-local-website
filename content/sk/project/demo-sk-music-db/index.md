@@ -39,7 +39,7 @@ Demo verzia databázy obsahuje informácie o slovenských umelcoch a nahrávkach
 
 Celá databáza je prístupná cez SQLite (`db`) alebo vo formátoch `.csv`, `.xlsx` či `.rds`. Ak by ste ju chceli vyskúšať alebo rovno použiť, pokojne sa na nás obráťte. Naša databáza je otvorená, zadarmo, a záujemcom radi pomôžeme a poradíme. V úvode tejto stránky sme umiestnili zoznam umelcov, ktorí sa v databáze momentálne nachádzajú.
 
-##Umelci
+## Umelci
 
 ### Zaradenie do databázy {#opt-in}
 Umelci a hudobné vydavateľstvá boli do databázy zaradené na základe dobrovoľného dotazníku od SOZA a Reprex BV. Účastníkov sme sa pýtali na vek, charakter vystúpení, jazyk a lokalitu. Možnosť zaradenia do databázy stále existuje – s radosťou do našej demo databázy a demo aplikácie pridáme ďalších umelcov. Dúfame, že naša spolupráca na projekte so SOZA a ďalšími partnermi bude pokračovať, a jej výsledkom bude naozaj rozsiahla databáza, ktorá bude obsahovať všetku slovenskú hudbu. 
@@ -51,7 +51,7 @@ Vhodný typ údajov do databázy sme zvolili pomerne subjektívne. Nemohli – a
 Zvolili sme alternatívne riešenie a pripravili dlhý zoznam kandidátov na základe preferencií slovenských poslucháčov. Na začiatku sme vybrali umelcov, ktorí sa objavili v rebríčkoch rádií, na konkrétnych slovenských playlistoch v Spotify, alebo sami seba opisujú slovíčkom „slovenský, slovenská“, napr. „slovenský rock“ alebo „slovenský hip-hop“. Na Wikipédii sme si prečítali ich anglické biografie rozdelené na ženskú a mužskú kategóriu.
 Muzikologička Dominika Semaňáková, pôvodom zo Slovenska, nám pomohla určiť, ktorých umelcov by sme naozaj mali považovať za slovenských. Kritériá boli nasledovné – známe miesto pôsobenia (teda kde umelec alebo skupina väčšinou pôsobí), miesto narodenia, miesto úmrtia, jazyk textov, jazyk názvu skladby a ďalšie verejne dostupné informácie o umelcovi.
 V demo verzii sme sa snažili obmedziť množstvo zadaných údajov a zamerali sme sa len na Spotify (dôvody si môžete prečítať tu ). Ku každému Spotify ID sú priradené nasledujúce údaje:
-* `popularity: hodnota od 0 do 100, ktoré na základe počtu prehraní na Spotify opisuje obľúbenosť umelca.
+* `popularity`: hodnota od 0 do 100, ktoré na základe počtu prehraní na Spotify opisuje obľúbenosť umelca.
 * `followers`: celkový počet používateľov, ktorí na Spotify umelca sledujú.
 * `genre`: až tri žánre na umelca.
 * `total_recommendations`: počet odporúčaní súvisiacich s daným umelcom po troch iteráciách algoritmu. Umelci s nulovou hodnotou odporúčaní sú pre Spotify prakticky neviditeľní a pravdepodobne nebudú odporúčaní nikdy. Jedným z našich hlavných cieľov je vyhnúť sa tzv. cold start-u, ktorý v roku 2020 postihol približne 15 % slovenských umelcov.
@@ -71,7 +71,7 @@ V demo verzii sme sa snažili obmedziť množstvo zadaných údajov a zamerali s
 ### Zvukové nahrávky
 
 Z celkového počtu 3 937 nahrávok obsahuje databáza Demo Slovak Music Database najviac 10 nahrávok, ktoré nie sú priradené k žiadnemu slovenskému umelcovi. Ak požiadame Spotify, aby nám odporučilo najvhodnejšie nahrávky, 19 umelcov sa vo výsledkoch vôbec nezobrazí. V prípade nájdených umelcov boli obsiahnuté tieto údaje: 
-Ku každej skladbe sú priradené tieto údaje: [Poznámka 2: Kompletný zoznam údajov, ktoré Spotify jednotlivým nahrávkam priraďuje, nájdete na:https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/]:
+Ku každej skladbe sú priradené tieto údaje: ^[Kompletný zoznam údajov, ktoré Spotify jednotlivým nahrávkam priraďuje, nájdete na: [https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/)]
 
 ## Žánre
 
