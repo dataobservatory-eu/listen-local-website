@@ -1,6 +1,6 @@
 ---
-title: Demo Slovak Music Database
-summary: Demonstration of a database that supports radio quota monitoring and music promotion on digital streaming and media platforms.
+title: Hudobná databáza Demo Slovak Music Database
+summary: Ukážka databázy, ktorá pomáha sledovať dodržiavanie vysielacích kvót a propagovať hudbu prostredníctvom digitálnych streamovacích služieb.
 tags:
 - recommendations
 date: "2020-12-01T00:00:00Z"
@@ -30,73 +30,55 @@ url_video: ""
 slides: ""
 ---
 
-Modern recommendation systems as well as the use and monitoring of local content guidelines ("*radio quotas*"") require reference data about recorded music that will be played or recommended to be played, and metadata, or *data about the data.*  Slovakia currently does not have a database that could help the monitoring of radio quotas, or which could help the LaLa music export, or a Slovak label to find audience for its songs. 
+## Hudobná databáza Demo Slovak Music Database
 
-Our Demo Slovak Music Database shows how to fill this need.  It is used in our Listen Slovak Demo App, and we show in our Feasibility Study what procedures and data is needed to create and constantly update a Comprehensive Slovak Music Database for these purposes.
+Moderné streamovacie služby, podobne ako dodržiavanie miestnych smerníc (napr. vysielacích kvót), vyžadujú dostupnosť údajov o hranej a odporúčanej hudbe, a tiež metadata – údaje o údajoch. Na Slovensku v súčasnosti neexistuje databáza, ktorá by uľahčila dodržiavanie vysielacích kvót, alebo pomáhala napr. organizácii LaLa – Slovak music export či slovenským hudobným vydavateľstvám predstaviť hudbu novým fanúšikom.
 
-The demo database contains information about Slovak artists, composers, and their sound recordings released in Slovakia and abroad. It can form the basis of radio quota monitoring, new type of recommendations, educations applications, or just simply improving the likelihood that Spotify or YouTube will recommend a particular Slovak sound recording or video.
+Pripravili sme preto demo verziu slovenskej hudobnej databázy – Demo Slovak Music Database, ktorá tieto problémy dokáže vyriešiť. Zároveň sme vytvorili demo verziu aplikácie Listen Slovak, ktorá túto databázu využíva. V štúdii realizovateľnosti, ktorú sme v rámci projektu pripravili, vysvetľujeme postupy a predstavujeme údaje potrebné na vytvorenie a aktualizáciu kompletnej databázy v reálnom čase.
+Demo verzia databázy obsahuje informácie o slovenských umelcoch a nahrávkach, ktoré vydali na Slovensku aj v zahraničí. Môže pomôcť jednoduchšie dodržiavať vysielacie kvóty, poslúžiť na vzdelávacie účely, či jednoducho zvýšiť pravdepodobnosť, že Spotify alebo YouTube odporučia poslucháčovi konkrétnu slovenskú nahrávku alebo video.
 
-The entire database can be accessed as SQLite database, or in the form of .csv, .xlsx or .rds tables. Please contact for help if you want to try it out our use it – it is free, open access, and we are happy to assist any interested reader to try it out. We also placed on this website a summary of the table, so that you can review which artists are featured in the database.
+Celá databáza je prístupná cez SQLite (`db`) alebo vo formátoch `.csv`, `.xlsx` či `.rds`. Ak by ste ju chceli vyskúšať alebo rovno použiť, pokojne sa na nás obráťte. Naša databáza je otvorená, zadarmo, a záujemcom radi pomôžeme a poradíme. V úvode tejto stránky sme umiestnili zoznam umelcov, ktorí sa v databáze momentálne nachádzajú.
 
-This will be seen in the front page, and the project description phase the rest.  Therefore, add this this text:
+##Umelci
 
-We added an easy to browse and download simplified version of the Demo Slovak Music Database to the website [here] – artists and their representatives can review how we see them or ask to be added or removed. You can read [there] a bit more about the database and its use, and you can use the [Contact] options to get access and help to data database in several formats that can be used with free of charge, open source software.
+### Zaradenie do databázy {#opt-in}
+Umelci a hudobné vydavateľstvá boli do databázy zaradené na základe dobrovoľného dotazníku od SOZA a Reprex BV. Účastníkov sme sa pýtali na vek, charakter vystúpení, jazyk a lokalitu. Možnosť zaradenia do databázy stále existuje – s radosťou do našej demo databázy a demo aplikácie pridáme ďalších umelcov. Dúfame, že naša spolupráca na projekte so SOZA a ďalšími partnermi bude pokračovať, a jej výsledkom bude naozaj rozsiahla databáza, ktorá bude obsahovať všetku slovenskú hudbu. 
 
-## Artists
-### Opt-in Process
-The opt-in process was based on a voluntary questionnaire that SOZA and Reprex sent to various Slovak artists and labels. We asked age, performance maturity, language use and location specific questions about the artists. The opt-in procedure is still open – we are happy to include more artists into the demo database and demo application, and we hope that we can continue this project with the Slovak Arts Council and other partners to make the database truly comprehensive, i.e. to contain all Slovak music unless the artist wants to be featured as `Slovak`.  Want to be deleted?  The opt-out process is very simple in the demo phase: contact us and let us know that you do not want to be part of the Demo Slovak Music Database.
+### Vyradenie z databázy
+Vyradenie z databázy je v tejto fáze veľmi jednoduché – stačí, ak nám dáte vedieť, že v nej naďalej nechcete byť zaradení.
+Údaje v databáze
+Vhodný typ údajov do databázy sme zvolili pomerne subjektívne. Nemohli – a ani nechceli – sme totiž nakladať s osobnými údajmi, ktoré spadajú pod smernicu GDPR. Podľa v súčasnosti platnej vysielacej kvóty sú za slovenských umelcov považovaní tí, ktorí majú na území SR trvalý pobyt. Toto kritérium nebolo pre nás celkom vhodné, keďže trvalý pobyt patrí medzi osobné údaje a zosnulí umelci ho, prirodzene, nemajú.
+Zvolili sme alternatívne riešenie a pripravili dlhý zoznam kandidátov na základe preferencií slovenských poslucháčov. Na začiatku sme vybrali umelcov, ktorí sa objavili v rebríčkoch rádií, na konkrétnych slovenských playlistoch v Spotify, alebo sami seba opisujú slovíčkom „slovenský, slovenská“, napr. „slovenský rock“ alebo „slovenský hip-hop“. Na Wikipédii sme si prečítali ich anglické biografie rozdelené na ženskú a mužskú kategóriu.
+Muzikologička Dominika Semaňáková, pôvodom zo Slovenska, nám pomohla určiť, ktorých umelcov by sme naozaj mali považovať za slovenských. Kritériá boli nasledovné – známe miesto pôsobenia (teda kde umelec alebo skupina väčšinou pôsobí), miesto narodenia, miesto úmrtia, jazyk textov, jazyk názvu skladby a ďalšie verejne dostupné informácie o umelcovi.
+V demo verzii sme sa snažili obmedziť množstvo zadaných údajov a zamerali sme sa len na Spotify (dôvody si môžete prečítať tu ). Ku každému Spotify ID sú priradené nasledujúce údaje:
+* `popularity: hodnota od 0 do 100, ktoré na základe počtu prehraní na Spotify opisuje obľúbenosť umelca.
+* `followers`: celkový počet používateľov, ktorí na Spotify umelca sledujú.
+* `genre`: až tri žánre na umelca.
+* `total_recommendations`: počet odporúčaní súvisiacich s daným umelcom po troch iteráciách algoritmu. Umelci s nulovou hodnotou odporúčaní sú pre Spotify prakticky neviditeľní a pravdepodobne nebudú odporúčaní nikdy. Jedným z našich hlavných cieľov je vyhnúť sa tzv. cold start-u, ktorý v roku 2020 postihol približne 15 % slovenských umelcov.
+* `genres``: až tri žánre na umelca.
+* `any_slovak_release`: ak umelec vydal nahrávky na Slovensku, priradí sa hodnota 1, inak sa priradí 0.
+* `slovak_release_pct`: % nahrávok umelca vydaných na Slovensku.
+* `any_slovak_title`: ak majú niektoré nahrávky daného umelca slovenský názov, priradí sa hodnota 1, inak sa priradí 0.
+* `all_slovak_title`: ak majú všetky nahrávky daného umelca slovenský text, priradí sa hodnota 1, inak sa priradí 0.
+* `all_english_title`: ak majú všetky nahrávky daného umelca slovenský text, priradí sa hodnota 1, inak sa priradí 0.
+* `known_slovak_city`: slovenské mestá spojené s daným umelcom.
+* `considered_czech`: ak je umelec zároveň považovaný za českého, priradí sa hodnota 1, inak sa priradí 0. Najväčšou výzvou bolo pre nás stanoviť hranicu medzi slovenským a českým.
+* `popular_song_titles`: krátky výber najpopulárnejších skladieb umelca.
+* `latest_popular_releases`: dátum vydania poslednej populárnej nahrávky umelca.
+* `spotify_url`: odkaz na oficiálny profil na Spotify. 
+* `Official_website_url`: odkaz na oficiálnu internetovú stránku umelca alebo skupiny.
 
-### Write-in Process
-The write-in process was necessarily subjective, because we could not, and did not want to use GPDR protected personal information. The current broadcasting quota defines Slovak artists by residence, which is a personal data that we do not have, and which is not applicable for deceased Slovak artists.
-As an alternative, we created a long list of candidates to the database based on listening habits in Slovakia. We considered artists who appeared on radio charts, or who appeared on various, Slovakia-specific playlists on Spotify, or who described their music with the `Slovak` adjective, like `Slovak rock` or `Slovak hip hop`. We read-in all the biographies of the English language Wikipedia in the Slovak female and Slovak male music performer categories.
-We narrowed down this long-list with the help of a Slovak native-speaker musicologist, Dominika Semaňáková, to identify artists who should be `considered Slovak`. The criteria of inclusion were publicly available city affiliation (where the artist or group works), birthplace, place of death, language of lyrics when applicable, language of the song or work titles, and publicly available information about the artist.
+### Zvukové nahrávky
 
-In the demo version we tried to limit the data written-in, and we only concentrated to Spotify (explained here why.)  The following features are attached to each artist’s Spotify ID:  [don’t translate labels, these are identifiers in the database files if somebody downloads them.]
+Z celkového počtu 3 937 nahrávok obsahuje databáza Demo Slovak Music Database najviac 10 nahrávok, ktoré nie sú priradené k žiadnemu slovenskému umelcovi. Ak požiadame Spotify, aby nám odporučilo najvhodnejšie nahrávky, 19 umelcov sa vo výsledkoch vôbec nezobrazí. V prípade nájdených umelcov boli obsiahnuté tieto údaje: 
+Ku každej skladbe sú priradené tieto údaje: [Poznámka 2: Kompletný zoznam údajov, ktoré Spotify jednotlivým nahrávkam priraďuje, nájdete na:https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/]:
 
-* `spotify_popularity`: A number between 0 and 100 describing the artist’s popularity based on stream counts on the Spotify platform.
-* `spotify_followers`: An artist’s total number of subscribers on the Spotify platform.
-* `spotify_genre`: Up to three genres associated with each artist.
-* `total_reccomendations`: The number of recommendations associated with each artist after three iterations of our algorithm. Artists with zero recommendations are practically `invisible` for Spotify, and likely never recommended. One of our main goals is to avoid this `cold start` problem, which affects about 15% of Slovak artists in 2020. [don’t translate cold start]
-* `spotify_genres`: Up to three genres associated with each artist.
-* `any_slovak_release`: A value of 1 is assigned if the artist has released some work in Slovakia, 0 otherwise.
-* `slovak_release_pct`: The percentage of sound recordings released in Slovakia.
-* `any_slovak_title`: A value of 1 is assigned if the artist has some work with a title in Slovakian, 0 otherwise.
-* `all_slovak_title`: A value of 1 is assigned if all the artist’s work is in the Slovak language, 0 otherwise.
-* `all_english_title`: A value of 1 is assigned if all the artist’s work is in Slovak language, 0 otherwise.
-* `known_slovak_city`: Slovakian cities associated with the artist.
-* `considered_czech`: A value of 1 is assigned if the artist is also considered to be Czech. Our greatest challenge is to define the boundaries of Slovakness and being “Czech”.
-* `popular_song_titles`: A short selection of the artist’s most popular songs.
-* `latest_popular_releases`: The date of the artist’s most recent popular releases.
-* `spotify_url`: The artist’s or bands’ official Spotify URL. 
-* `official_website_url`: The artist’s or band’s official website.
+## Žánre
 
-## Sound Recordings
-The Demo Slovak Music Database contains up to ten sound recordings associated with 0 Slovakian artists, comprising a total of 3937 unique tracks. When the Spotify API is queried for top track recommendations, 19 artists do not yield any results. For each other artist, the following features are included: 
-[Footnote 2: A full list of the data Spotify keeps for each track can be consulted at https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/]:
-* `danceability`: An approximation to how suitable a track is for dancing, considering musical elements such as tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
-* `energy`: A perceptual measure of intensity and activity aggregating features including dynamic range, perceived loudness, timbre, onset rate, and general entropy.
-* `key`: An approximate overall key for the track. Spotify expresses this in pitch notation, and here this is converted to the notation’s tonal counterparts.
-* `loudness`: Average loudness of a track in decibels (dB).
+Všetci vieme, že pri vyhľadávaní a výbere nových hudobných diel je žáner veľmi dôležitý. V bežnej reči však niekedy býva problém hudbu dobre opísať. Žánrové názvoslovie môže byť zavádzajúce – napr. slovenskí hudobní fanúšikovia môžu chápať `jazz` trochu inak ako poslucháči v Japonsku alebo v Spojených štátoch. 
+Digitálne streamovacie služby a internetové stránky zvyčajne využívajú umelú inteligenciu, ktorá vychádza z anglických pomenovaní žánrov. Preto je nesmierne dôležité správne pochopiť a používať slovenské a anglické definície jednotlivých žánrov. Popová skladba, ktorá je mylne označená ako `rock` sa môže stať neviditeľnou, pretože nevyhovuje vkusu fanúšikov „rocku“. Používatelia služby ju preskočia a umelá inteligencia sa naučí, že táto skladba je „neobľúbená“. Ak by sme ju však ponúkli fanúšikom `pop`u, mohla by sa ujať.
 
-* `mode`: An approximation to a major-minor modality: 0 is minor, 1 is major.
+Tabuľka žánrov v našej databáze mapuje hypotetické rozdiely medzi „slovenskými“ žánrami, napr. `Slovak indie` či `Slovak jazz` a žánrami iných krajín, napr. `Belgian indie` alebo `Japanese jazz`. Tieto rozdiely sú dôležitou súčasťou našej databázy a ich správne rozlíšenie vyžaduje širší konsenzus hudobných dramaturgov, promotérov hudby v zahraničí, hudobných vydavateľstiev, umelcami a odborníkov v oblasti počítačovej muzikológie. Zaraďovanie skladieb do našej databázy ukazuje, že nedostatočné povedomie o žánrovom názvosloví globálnych streamovacích služieb je jedným z hlavných dôvodov nízkej viditeľnosti slovenskej hudby na týchto platformách. 
 
-* `speechiness`: Detects the presence of spoken words in a track on a scale between 0 and 1.0.
-* `acousticness`: A confidence measure from 0.0 to 1.0 of whether the track is acoustic. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.
-* `liveness`: A confidence measure from 0.0 to 1.0 of whether the track is live depending on the detection of an audience in the recording.
-
-* `valence`: An approximate measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
-
-* `tempo`: The overall estimated tempo of a track in beats per minute (BPM).
-
-* `duration (ms)`: Track length in milli-seconds.
-
-* `time_signature`: An overall approximation to the track’s beats per measure.
-
-## Genres
-
-We all know that genres are very important for music discovery and music selection, but music cannot be very well described with natural language words. Any taxonomy of genres is dependent on the language, for example, `jazz` may mean a bit different for music fans in Slovakia, Japan, and the United States. 
-Digital streaming services and media platforms usually use AI applications that understand English language taxonomies. Therefore, it is critically important to have a correct understanding and use of the Slovak and English versions of genre descriptions.  A song that is accidentally labelled as `rock` instead of `pop` may become invisible, because it does not fit the `rock` audience’s taste. It will be skipped by many listeners, and the AI algorithm will *learn* that this is not a good song. Even though `pop` audiences may like it.
-
-Our databases genre table map abstract distances of `Slovak` genres, such as `Slovak indie` or `Slovak jazz` to `Belgian indie` or `Japanese jazz`. This is a very important part of our database, and it requires a broader consensus among radio editors, music export promoters, labels, artist, and computational musicologists to get this right.  However, or [opt-in process] show that the lack of knowledge about the way genres work in global platforms is an important reason of low visibility for Slovak music. 
 
 
