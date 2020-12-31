@@ -13,7 +13,6 @@ organizations:
 - name: Reprex BV
   url: https://dataandlyrics.com/
 - name: Slovenský ochranný zväz autorský pre práva k hudobným dielam
-
   url: https://www.soza.sk/
 - name: Consolidated Independent
   url: https://ci-info.com/

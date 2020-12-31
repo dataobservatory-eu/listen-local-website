@@ -1,12 +1,12 @@
 ---
 # Display name this is the English website
-title: Listen Slovak
+title: Listen Local
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Locally Relevant Music Recommendations
+role: Locally relevant music recommendations
 
 # Organizations/Affiliations to show in About widget
 organizations:
