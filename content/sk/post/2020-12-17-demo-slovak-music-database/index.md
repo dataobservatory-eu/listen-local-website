@@ -38,5 +38,5 @@ Vytvorili sme aj zjednodušenú [verziu ] databázy, ktorá sa ľahšie prehliad
 
 <iframe seamless ="" name="iframe" src="https://dataandlyrics.com/htmlwidgets/sk_artist_table.html" width="1000" height="1050" ></iframe>
 
-[Click here to view the table on a separate page](/htmlwidgets/sk_artist_table.html)
+[Kliknite tu, ak chcete zobraziť tabuľku na samostatnej stránke.](/htmlwidgets/sk_artist_table.html)
 

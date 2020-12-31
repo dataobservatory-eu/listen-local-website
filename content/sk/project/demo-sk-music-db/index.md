@@ -44,6 +44,8 @@ Celá databáza je prístupná cez SQLite (`db`) alebo vo formátoch `.csv`, `.x
 ### Zaradenie do databázy {#opt-in}
 Umelci a hudobné vydavateľstvá boli do databázy zaradené na základe dobrovoľného dotazníku od SOZA a Reprex BV. Účastníkov sme sa pýtali na vek, charakter vystúpení, jazyk a lokalitu. Možnosť zaradenia do databázy stále existuje – s radosťou do našej demo databázy a demo aplikácie pridáme ďalších umelcov. Dúfame, že naša spolupráca na projekte so SOZA a ďalšími partnermi bude pokračovať, a jej výsledkom bude naozaj rozsiahla databáza, ktorá bude obsahovať všetku slovenskú hudbu. 
 
+Pokiaľ ste hudobník, a chcete byť vy alebo vaša kapela, či umelecký súbor zahrnutí do tejto databázy, vyplňte prosím [tento dotazník](https://www.surveymonkey.com/r/ll_collector_2020).
+
 ### Vyradenie z databázy
 Vyradenie z databázy je v tejto fáze veľmi jednoduché – stačí, ak nám dáte vedieť, že v nej naďalej nechcete byť zaradení.
 
@@ -72,6 +74,8 @@ V demo verzii sme sa snažili obmedziť množstvo zadaných údajov a zamerali s
 * `latest_popular_releases`: dátum vydania poslednej populárnej nahrávky umelca.
 * `spotify_url`: odkaz na oficiálny profil na Spotify. 
 * `Official_website_url`: odkaz na oficiálnu internetovú stránku umelca alebo skupiny.
+
+Pokiaľ chcete byť vylúčený zo zoznamu, kontaktuje nás na [Kontakt](#contact).
 
 ### Zvukové nahrávky
 
