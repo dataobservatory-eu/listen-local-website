@@ -1,8 +1,8 @@
 +++
 title = "Listen Local: Why We Need Alternative Recommendation Systems"
 
-date = 2020-12-14T17:10:00+02:00
-lastmod = 2020-12-14T17:10:00+02:00
+date = 2020-11-23T17:10:00+02:00
+lastmod = 2020-12-22T17:10:00+02:00
 draft = false
 
 authors = ["Daniel Antal"]
