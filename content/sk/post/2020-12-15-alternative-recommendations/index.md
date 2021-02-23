@@ -1,8 +1,8 @@
 +++
-title = "Listen Local: Why We Need Alternative Recommendation Systems"
+title = "Listen Local: Prečo potrebujeme alternatívne odporúčacie systémy"
 
-date = 2020-12-14T17:10:00+02:00
-lastmod = 2020-12-14T17:10:00+02:00
+date = 2020-11-25T17:10:00+02:00
+lastmod = 2020-12-22T17:10:00+02:00
 draft = false
 
 authors = ["Daniel Antal"]
@@ -30,41 +30,44 @@ projects = ["listen-local"]
 
 {{< figure src="03_app_recommend.png" title="The first version of our demo application" >}}
  
-Recommendation systems utilize knowledge about music content and their audiences while also pursuing the objectives or needs of recommenders.
+Odporúčacie systémy využívajú vedomosti o hudobnej tvorbe a jej publiku a zároveň sledujú ciele alebo potreby odporúčajúcich. 
 
-The simplest recommendation systems just follow the charts: for example, they select from well-known current or perennial greatest hits. Such a system may work well for an amateur DJ in a home party or a small local radio that just wants to make sure that the music in its programme will be liked by many people. They reinforce existing trends and make already popular songs and their creators even more popular.
+Najjednoduchšie odporúčacie systémy sledujú hudobné rebríčky: napríklad, vyberajú z aktuálnych alebo dlhodobých hitov. Takéto systémy môžu vyhovovať amatérskemu DJ-ovi na domácej oslave, alebo malému lokálnemu rádiu, ktoré si chce jednoducho zaistiť, aby sa hudba v jeho programe páčila čo najväčšiemu počtu ľudí. Zosilňujú tak existujúce trendy a čoraz viac popularizujú už populárnu hudbu a jej tvorcov.
 
-If the recommendation engine is supported by big data and a machine learning system -- or increasingly, a combination of several machine learning algorithms -- the general *modus operandi* is to exploit information about both content and users in order to achieve certain goals.
+Ak je odporúčací vyhľadávač podporovaný veľkými dátami a systémom strojového učenia alebo je dokonca kombináciou viacerých strojovo učených algoritmov, je všeobecný modus operandi využívať informácie o tvorbe a aj o používateľoch za účelom dosiahnutia istých cieľov. Po tejto stránke môžu byť podobné nariadeniu o lokálnej tvorbe, ktorej cieľom je dosiahnuť 15-percentnú kvótu slovenskej hudby. 
 
-## How algorithmic recommendation systems work?
 
-{{< figure src="mind_map_recommendations.jpg" title="How recommendation systems work?" >}}
+## Ako fungujú odporúčacie vyhľadávače?
 
-Spotify’s recommendation system is a mix of content- and collaborative filtering that exploits information about users’ past behaviour (e.g. liked, skipped, and re-listened songs), the behaviour of similar users, as well as data collected from the users' social media and other online activities, or from blogs. Deezer uses a similar system that is boosted by the acquisition of Last.fm -- big data created from user comments are used to understand the mood of the songs, for example.
+{{< figure src="mind_map_recommendations.jpg" title="Ako fungujú odporúčacie vyhľadávače?" >}}
 
-{{< figure src="spotify_discover_weekly.png" title="Spotify makes 16 billion music recommendations each month in 2020." >}}
+Odporúčací systém využívaný službou Spotify je spojením obsahu a kolaboratívneho filtrovania, ktorý využíva informácie o predošlom správaní sa užívateľov (napríklad: lajkované, preskočené a spätne vypočuté piesne), o informácie o správaní podobných užívateľov a tiež nazbierané dáta z užívateľových sociálnych sietí a iných online aktivít. Deezer využíva podobný systém podporovaný zberom informácii zo stránky Last.fm - veľké dáta vytvorené z komentárov používateľov sú využívané napríklad na pochopenie nálady piesní.
 
-YouTube, which plays an even larger role in music discovery, uses a system comprised of two neural networks: one for candidate generation and one for ranking. The candidate generation deep neural network provides works on the basis of collaborative filtering, while the ranking system is based on content-based filtering and a form of utility ranking that takes into consideration the user's languages, for example.
+{{< figure src="spotify_discover_weekly.png" title="Spotify vydá v roku 2020 každý mesiac 16 miliárd hudobných odporúčaní." >}}
 
-What makes these systems common is that they maximize the algorithm creators' corporate key performance indicators. Spotify wants to be ‘your playlist to life’ and increase the amount of music played during work or sports in the background, during travelling, or active music listening –- i.e. maximizing the number of hours spent using it, and do not let empty timeslots for other music providers, such as radio stations. YouTube and Netflix have similar targets. They are in many ways like commercial radio targets, which want to maximize the time spent listening to the broadcast stream. Radios and YouTube, in particular, have similar goals because they are mainly financed through advertising. For Spotify or Netflix, their key financial motivation is to avoid users' cancelling their subscriptions or changing it to different providers, such as Amzon, Apple or Deezer.
+YouTube, ktorý hrá ešte väčšiu rolu v objavovaní hudby, využíva systém zložený z dvoch neurónových sietí: jedna pre tvorbu čakateľa a jedna pre určovanie poradia. Dômyselná neurónová sieť generujúca čakateľa poskytuje diela na základe kolaboratívneho filtrovania, kým radiaci systém funguje na základe filtrovania obsahu a na hodnotení užitočnosti, ktoré berie do úvahy napríklad jazyk používateľa.
 
-## What is the problem with black box recommendation systems?
+Čo robí tieto systémy bežnými je to, že maximalizujú kľúčové ukazovatele výkonnosti tvorcov algoritmov. Spotify chce byť Váš ‘playlist do života’ a chce zvyšovať množstvo hranej hudby v pozadí počas práce, športu, alebo cestovania, alebo aj počas aktívneho počúvania hudby. Je to v podstate maximalizácia času stráveného používaním týchto systémov a zároveň zamedzenie, aby prázdne časové okná boli vyplnené inými hudobnými sprostredkovateľmi ako napríklad rádiami.
 
-What they also have in common is that they do not aim to give a fair chance to each uploaded song, serve equally every artist, or provide whatever equality of chances for English, Slovak or Farsi language content.
+## Aký je problém s black boxovými odporúčacími systémami?
 
-They tend to reinforce trends similarly to music charts, but with far bigger efficiency. As the Dutch comedian, author and journalist Arjen Lubach explains the YouTube algorithm, to keep their personal recommendations engaging all the day and all of the night, they create a comfortable universe for the user allows little distraction in. If the user wants to listen to global hit music, or stoner rock, it will never be distracted with anything else.
+Čo majú spoločné je to, že ich cieľom nie je dávať férovú šancu každej nahranej skladbe, slúžiť každému umelcovi rovnako alebo zabezpečiť rovnomerné šance pre anglické, slovenské alebo perzské skladby. Väčšinou majú tendenciu tlačiť trendy podobné hudobným rebríčkom, ale s oveľa väčšou účinnosťou. Holandský komik, autor a žurnalista Arjen Lubach vysvetľuje, že YouTubový algoritmus zaisťuje, aby boli ich osobné odporúčania aktívne celý deň a celú noc, a tým zaisťujú komfortné prostredie pre používateľa, ktoré mu umožňuje minimálne rozptýlenie. Ak chce používateľ počúvať globálne hity alebo „stoner rock“, nikdy ich nerozptýlia niečím iným.
 
 <iframe width="710" height="410" src="https://www.youtube.com/embed/FLoR2Spftwg?cc_load_policy=1&origin=http://dataandlyrics.com&cc_lang_pref=en" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*Zondag met Lubach on Dutch public broadcaster VPRO. Click settings sign to change the language of the captions.*
+*Zontag stretol Lubacha na Holandskom verejnom vysielaní VPRO. Kliknite na nastavenia pre
+zmenu jazyka tituliek.*
 
-The problem with such hyper-personalized media is that they leave no room for public activities.  Public broadcasters, which had a monopoly to television broadcasting in most European countries until the early 1990s, for example, were aiming to air a diversity of news, knowledge and access to local culture. Many countries on all continents have maintained `local content guidelines` for broadcasting on public, commercial and community television and radio channels, for example, local music and films, and reliable news as a public service. Personalized media-, social media- and streaming platforms do not have such obligations.
+Problém s takýmto hyper-personalizovaným médiami je, že nenechávajú priestor verejným
+aktivitám. Verejnoprávni vysielatelia, ktorí mali monopol na televízne vysielanie vo väčšine
+európskych krajín od začiatku 90. rokov, sa zameriavali na šírenie rozmanitosti správ, mali napríklad cieľ vysielať rozmanitosť správ, vedomostí spolu s prístupom k lokálnej kultúre. Veľa krajín na rôznych kontinentoch dodržiava vysielanie pokyny týkajúce sa miestneho obsahu pre vysielanie na verejných, komerčných a komunitných televíznych a rozhlasových kanáloch ako napríklad lokálnu hudbu a filmy a overené spravodajstvo. Personalizované média, sociálne siete a streamovacie platformy nemajú takéto záväzky.
 
-* Black box recommendation systems usually maximize a corporate key performance indicator, and they are not subject to usual public new service or local content regulations that traditional broadcast media is.
+Blackboxové odporúčacie systémy väčšinou maximalizujú kľúčový ukazovateľ výkonnosti spoločnosti a nepodliehajú obvyklým predpisom o nových verejných službách či o miestnom obsahu, aké majú tradičné vysielacie médiá. 
 
-* The goal and the steps that the algorithm is pursuing is not know to content creators, and they do not know when will the algorithm work for their benefit or against them.
+Cieľ a kroky, ktoré sledujú algoritmy nie sú autorom známe a nie sú si vedomí toho, kedy algoritmy
+fungujú v ich prospech a kedy nie.
 
-## Transparent and regulated AI
+## Transparentný, dôveryhodný a regulovaný algoritmus
 
 In our view, utility-based recommendation system can provide a bridge between current, corporate-owned systems that maximize a media or streaming platforms' business indicators.
 
@@ -90,3 +93,7 @@ We believe that algorithms create value for the users, and if artists are not ha
 Overall, we want to show that regulating black box, private algorithms and data monopolies is only a first step to damage control. Deploying white, transparent algorithms and building collaborative or open data pools can only guarantee fairness in the digital platforms, in recommendations, and generally in the use of AI.
 
 *[Listen Local](https://dataandlyrics.com/tag/listen-local/) is developing transparent algorithms and open source solutions to find new audiences for independent music. We want to correct the injustice and inherent bias of market leading big data algorithms. If you want* `your music and audience` *to be analysed in Listen Local, fill* [this form](https://www.surveymonkey.com/r/ll_collector_2020) *in. We will include you in our demo application for local music recommendations and our analysis to be revealed in December.*
+
+Link: [Etické usmernenia pre dôveryhodnú umelú inteligenciu](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60439)
+
+
