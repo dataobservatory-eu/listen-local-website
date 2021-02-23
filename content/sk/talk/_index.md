@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Talks
+title: Aktuálne a pripravované rozhovory
 
 # View.
 #   1 = List

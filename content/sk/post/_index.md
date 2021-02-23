@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: Príspevky
 
 # View.
 #   1 = List
