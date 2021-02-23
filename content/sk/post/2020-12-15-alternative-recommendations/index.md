@@ -39,7 +39,7 @@ Ak je odporúčací vyhľadávač podporovaný veľkými dátami a systémom str
 
 ## Ako fungujú odporúčacie vyhľadávače?
 
-{{< figure src="mind_map_recommendations.jpg" title="Ako fungujú odporúčacie vyhľadávače?" >}}
+{{< figure src="mind_map_recommendations_sk.png" title="Ako fungujú odporúčacie vyhľadávače?" >}}
 
 Odporúčací systém využívaný službou Spotify je spojením obsahu a kolaboratívneho filtrovania, ktorý využíva informácie o predošlom správaní sa užívateľov (napríklad: lajkované, preskočené a spätne vypočuté piesne), o informácie o správaní podobných užívateľov a tiež nazbierané dáta z užívateľových sociálnych sietí a iných online aktivít. Deezer využíva podobný systém podporovaný zberom informácii zo stránky Last.fm - veľké dáta vytvorené z komentárov používateľov sú využívané napríklad na pochopenie nálady piesní.
 
@@ -78,23 +78,22 @@ Naša skúšobná aplikácia vytvára odporúčania na základe už existujúcic
 
 Naša skúšobná aplikácia a sprievodná projektová štúdia na Slovensku poukazuje na to, ako môže regulačný orgán vytvoriť lepšie regulácie vysielania, pričom sa poučí zo skúseností so streamovacími platformami založenými na umelej inteligencii a ako môže tento systém uplatniť ciele požiadaviek miestneho obsahu (napr. určitú viditeľnosť slovenskej alebo mestskej hudby) a požiadaviek verejného záujmu (napr. šírenie spoľahlivých informácií alebo zastavenie [hudby s nenávistným](https://dataandlyrics.com/post/2020-10-30-racist-algorithm/).
 
-## Access for all
+Link: [Etické usmernenia pre dôveryhodnú umelú inteligenciu](https://op.europa.eu/sk/publication-detail/-/publication/d3988569-0434-11ea-8c1f-01aa75ed71a1)
 
-We do not believe that the current heated discussion on the re-regulation of AI and music streaming will solve all the problems of independent artists, bands from ethnic or racial minorities, or otherwise vulnerable producers. New regulation can limit the unintended collateral damage of big data algorithms deployed by big corporations, but they will not bring down the benefits of AI to these creators.
+## Prístup pre všetkých
 
-Take the example of the [controversial](https://www.theguardian.com/technology/2020/nov/03/spotify-artists-promote-music-exchange-cut-royalty-rates-payola-algorithm) new initiative that let's artists, labels and publishers to promote their music in exchange for [a cut in royalty rates](https://newsroom.spotify.com/2020-11-02/amplifying-artist-input-in-your-personalized-recommendations/). While felt by many artists injust and even corrupt, it is an answer to the growing need to influence how the recommendation algorithms are promoting certain music at the expense of tens of millions of sound recordings that are not recommended.
+Neveríme, že súčasná búrlivá diskusia o regulácii umelej inteligencie a streamovania hudby vyrieši všetky problémy nezávislých umelcov, skupín etnických alebo rasových menšín alebo inak zraniteľných producentov. Nové regulácie by mohli limitovať neúmyselne napáchanú škodu veľkými dátovými algoritmami nasadených veľkými korporáciami, ale zároveň nezmenšia benefity algoritmov pre týchto umelcov.
 
-We believe that algorithms create value for the users, and if artists are not happy to pay for corporations to influence black box algoritms, thatn they must collaborate and share data, and build large enough data pools so that they can deploy white, transparent algorithms that work for them. 
-* Our Feasibility Study shows why it is important that creators have a `control over what data describes their music`, their biographies and other information online, because corporate streaming platforms use this information for their algorithms.
+Zoberte si príklad novej [kontroverznej iniciatívy](https://www.theguardian.com/technology/2020/nov/03/spotify-artists-promote-music-exchange-cut-royalty-rates-payola-algorithm), ktorá umožňuje umelcom, hudobným vydavateľstvám a vydavateľom propagovať ich hudbu výmenou [za zníženie sadzieb licenčných poplatkov]((https://newsroom.spotify.com/2020-11-02/amplifying-artist-input-in-your-personalized-recommendations/)). Aj keď mnohí umelci cítia, že toto je nespravodlivé a dokonca až skorumpované, je to odpoveď na večne rastúcu potrebu ovplyvniť skutočnosť ako algoritmické systémy propagujú určitú hudbu na úkor desiatok tisíc nahrávok, ktoré nie sú odporúčané.
 
-* We should that with relatively little effort creators can `pool enough information` to create alternative recommendation systems that follow a more agreeable goal, that is sensitive to local content requirements and more access to new artists, women or black performers, or which suppress hateful lyrics.
+Veríme, že algoritmy sú hodnotné pre užívateľov a ak nie sú umelci ochotní platiť korporáciam za vplyv na `black boxové algoritmy`, tak musia spolupracovať a zdieľať údaje a vytvárať dostatočné veľké dátové fondy na to, aby mohli nasadiť biele, transparentné algoritmy, ktoré fungujú v ich prospech.
 
-* The benefit of an `open algorithm` and pooled data is that artists can actively look for audiences in various age groups or in cities that are accessible for them on a performing tour after the pandemic.
+*	Naša štúdia poukazuje na to, prečo je dôležité, aby mali `umelci kontrolu nad tým aké dáta popisujú ich tvorbu`, ich biografiu a iné informácie na internete, pretože korporátne streamovacie platformy tieto informácie na ich algoritmy používajú.
 
-Overall, we want to show that regulating black box, private algorithms and data monopolies is only a first step to damage control. Deploying white, transparent algorithms and building collaborative or open data pools can only guarantee fairness in the digital platforms, in recommendations, and generally in the use of AI.
+*	Mali by sme poukázať na to, že tvorcovia vedia s relatívne malým úsilím `zhromaždiť dostatok informácií` na vytvorenie alternatívnych odporúčacích systémov, ktoré sledujú prijateľnejší cieľ, ktorý je citlivý na požiadavky miestneho obsahu, je lepšie prístupný novým umelcom, ženám alebo interpretom iných rás a ktorý potláča nenávistné texty.
 
-*[Listen Local](https://dataandlyrics.com/tag/listen-local/) is developing transparent algorithms and open source solutions to find new audiences for independent music. We want to correct the injustice and inherent bias of market leading big data algorithms. If you want* `your music and audience` *to be analysed in Listen Local, fill* [this form](https://www.surveymonkey.com/r/ll_collector_2020) *in. We will include you in our demo application for local music recommendations and our analysis to be revealed in December.*
+*	Výhoda `otvoreného algoritmu` a nazbieraných dát je tá, že umelci môžu aktívne vyhľadávať publikum v rôznych vekových skupinách alebo mestách, ktoré sú im prístupné na turné po pandémii.
 
-Link: [Etické usmernenia pre dôveryhodnú umelú inteligenciu](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60439)
+Celkovo chceme ukázať, že regulovanie _black boxu_, súkromné algoritmy a dátové monopoly sú len prvým krokom k sanácii škôd. Jedine nasadenie bielych, transparentných algoritmov a vybudovanie zdieľaných alebo otvorených dátových fondov môže garantovať férovosť v digitálnych platformách, v odporúčaniach a vo všeobecnom používaní umelej inteligencie.
 
-
+_[Listen Local](https://dataandlyrics.com/tag/listen-local/) vytvára transparentné algoritmy a `open source` riešenia za účelom vyhľadávania nového publika pre nezávislú hudbu. Chceme napraviť nespravodlivosť a inherentnú zaujatosť trhu, ktorý aplikuje veľké dátové algoritmy. Ak by ste chceli svoju hudbu a publikum nechať analyzovať iniciatívou ‘Listen Local’, vyplňte [tento dotazník](https://www.surveymonkey.com/r/ll_collector_2020). Zahrnieme vás v našej skúšobnej aplikácii pre odporúčanie lokálnej hudby a naša analýza bude odhalená v decembri._
