@@ -69,13 +69,14 @@ fungujú v ich prospech a kedy nie.
 
 ## Transparentný, dôveryhodný a regulovaný algoritmus
 
-In our view, utility-based recommendation system can provide a bridge between current, corporate-owned systems that maximize a media or streaming platforms' business indicators.
+Podľa nášho názoru môže systém odporúčaní založený na užitočnosti poskytnúť most medzi aktuálnymi korporátne vlastnenými systémami, ktoré maximalizujú obchodné indikátory médií alebo
+streamovacích platforiem.
 
-Public new service requirements or local content requirements (*"national quotas"*) set for commercial broadcasting are similar to utility or knowledge-based recommendation systems. A utility-based recommendation system, for example, would prefer from two candidates for a playlist the one that has a Slovak composer, or a performer from Wales, or which has Farsi lyrics. 
+Požiadavky na nové verejné služby alebo požiadavky na miestny obsah (*“národné kvóty”*) určené na komerčné vysielanie sú podobné úžitkovým alebo vedomostným odporúčacím systémom. Napríklad, úžitkový odporúčací systém by z dvoch kandidátov preferoval toho, ktorý má slovenského skladateľa alebo interpreta z Walesu alebo toho, ktorý má perzské texty. 
 
-Our Demo App creates recommendations on the basis of a pre-existing radio or personal streaming playlist that, by choice, contains a pre-defined ratio of music produced in Slovakia, or performed by Slovak artists. We will soon add Dutch and Hungarian choices to this demo, but naturally, we could add any city's, regions', province's our countries preferences into the app. 
+Naša skúšobná aplikácia vytvára odporúčania na základe už existujúcich rádií alebo osobných playlistov, ktorý podľa výberu obsahuje vopred definovaný pomer hudby vyrobenej na Slovensku alebo interpretovanej slovenskými umelcami. Do skúšobnej verzie pridáme čoskoro aj holandské a maďarské možnosti voľby, ale do aplikácie by sme mohli prirodzene pridať preferencie akéhokoľvek mesta, regiónu, oblasti či krajiny. 
 
-Our Demo App and accompanying Feasibility Study in Slovakia shows how can a regulator create better broadcasting regulations, learning from the experience with AI-driven streaming platforms, and how can it apply the goals of local content requirements (such as a certain visibility for Slovak or a city-based music) and public service requirements (for example, spreading reliable information or stopping [hateful music](https://dataandlyrics.com/post/2020-10-30-racist-algorithm/).)
+Naša skúšobná aplikácia a sprievodná projektová štúdia na Slovensku poukazuje na to, ako môže regulačný orgán vytvoriť lepšie regulácie vysielania, pričom sa poučí zo skúseností so streamovacími platformami založenými na umelej inteligencii a ako môže tento systém uplatniť ciele požiadaviek miestneho obsahu (napr. určitú viditeľnosť slovenskej alebo mestskej hudby) a požiadaviek verejného záujmu (napr. šírenie spoľahlivých informácií alebo zastavenie [hudby s nenávistným](https://dataandlyrics.com/post/2020-10-30-racist-algorithm/).
 
 ## Access for all
 
