@@ -10,7 +10,7 @@ authors = ["Daniel Antal"]
 tags = ["listen-local", "Slovakia", "justice", "algorithms", "big-data", 
 "recommendations", "local-content-requirements"]
 
-summary = "Regulating black box, private algorithms and data monopolies is only a first step to damage control. Deploying white, transparent algorithms and building collaborative or open data pools can only guarantee fairness in the digital platforms, in recommendations, and generally in the use of AI."
+summary = "Regulácia súkromných, blackboxových algoritmov a dátových monopolov je len prvým krokom na zmiernenie škôd. Iba nasadenie bielych, transparentných algoritmov a vytváranie spoločných alebo otvorených súborov dát môže zaručiť spravodlivosť na digitálnych platformách, v odporúčaniach a všeobecne v používaní umelej inteligencie."
 
 projects = ["listen-local"]
 
@@ -28,7 +28,7 @@ projects = ["listen-local"]
 
 +++
 
-{{< figure src="03_app_recommend.png" title="The first version of our demo application" >}}
+{{< figure src="03_app_recommend.png" title="Prvá verzia našej demo aplikácia" >}}
  
 Odporúčacie systémy využívajú vedomosti o hudobnej tvorbe a jej publiku a zároveň sledujú ciele alebo potreby odporúčajúcich. 
 
@@ -90,7 +90,7 @@ Veríme, že algoritmy sú hodnotné pre užívateľov a ak nie sú umelci ochot
 
 *	Naša štúdia poukazuje na to, prečo je dôležité, aby mali `umelci kontrolu nad tým aké dáta popisujú ich tvorbu`, ich biografiu a iné informácie na internete, pretože korporátne streamovacie platformy tieto informácie na ich algoritmy používajú.
 
-*	Mali by sme poukázať na to, že tvorcovia vedia s relatívne malým úsilím `zhromaždiť dostatok informácií` na vytvorenie alternatívnych odporúčacích systémov, ktoré sledujú prijateľnejší cieľ, ktorý je citlivý na požiadavky miestneho obsahu, je lepšie prístupný novým umelcom, ženám alebo interpretom iných rás a ktorý potláča nenávistné texty.
+*	Mali by sme poukázať na to, že tvorcovia vedia s relatívne malým úsilím `zhromaždiť dostatok informácií`(zhromažďovať a následne súborne zdieľať dostatok informácií) na vytvorenie alternatívnych odporúčacích systémov, ktoré sledujú prijateľnejší cieľ, ktorý je citlivý na požiadavky miestneho obsahu, je lepšie prístupný novým umelcom, ženám alebo interpretom iných rás a ktorý potláča nenávistné texty.
 
 *	Výhoda `otvoreného algoritmu` a nazbieraných dát je tá, že umelci môžu aktívne vyhľadávať publikum v rôznych vekových skupinách alebo mestách, ktoré sú im prístupné na turné po pandémii.
 
