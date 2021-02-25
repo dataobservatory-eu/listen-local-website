@@ -57,3 +57,5 @@ highlight_name: false
 ---
 
 Listen Local is an open initiative for musicians and music organizations to create new, open AI applications that make locally relevant music visible online and offline.  Listen Slovak is our first demonstration project, accompanied with a Feasibility Study. It was created jointly with the Slovak Performing Rights Society, and with the support of the Slovak Arts Council and Consolidated Independent, a music distributor company for independent labels and artist.  Our aim was to understand why some Slovak music cannot be heard on radio and on streaming platforms, and to create a database and a demo application that makes that music discoverable.
+
+{{< figure library="true" src="/logos/fpu_soza.png" >}}
