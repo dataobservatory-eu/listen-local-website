@@ -16,7 +16,7 @@ organizations:
   url: https://www.soza.sk/
 - name: Consolidated Independent
   url: https://ci-info.com/
-- name: Fond na podporu
+- name: Fond na podporu umenia
   url: https://www.fpu.sk/
   
 # Short bio (displayed in user profile at end of posts)
