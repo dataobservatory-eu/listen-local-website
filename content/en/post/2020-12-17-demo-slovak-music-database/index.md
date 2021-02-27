@@ -40,7 +40,7 @@ To train our locally relevant, [alternative recommendation system](/post/2020-12
 
 <iframe seamless ="" name="iframe" src="https://dataandlyrics.com/htmlwidgets/sk_artist_table.html" width="1000" height="1050" ></iframe>
 
-[Click here to view the table on a separate page](/htmlwidgets/sk_artist_table.html)
+[Click here to view the table on a separate page](https://listenlocal.community/post/2020-12-17-demo-slovak-music-database/sk_artist_table.html)
 
 Modern recommendation systems usually rely on data provided by artists or their representatives, data on who and how is listening to their music, and what music is listened to by the audience of the artists, and certain musicological features of the music.  Usually they collect data from various data sources, but these data sources are mainly English language sources. 
 

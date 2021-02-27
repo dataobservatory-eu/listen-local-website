@@ -38,7 +38,7 @@ Celá databáza je prístupná cez SQLite alebo vo formátoch .csv, .xlsx či .r
 
 Vytvorili sme aj zjednodušenú [verziu ] databázy, ktorá sa ľahšie prehliada aj sťahuje – umelci alebo ich zástupcovia si môžu skontrolovať, ako sme ich klasifikovali, prípadne požiadať o zaradenie či výmaz z databázy. Viac o databáze a jej využití si môžete prečítať [tu](sk/project/demo-sk-music-db/). Cez podstránku [Kontakty](/sk/#contact) si môžete vyžiadať prístup do databázy alebo požiadať o jej stiahnutie vo viacerých formátoch, s ktorými môžete pracovať v nespoplatnených open-source softvéroch.
 
-<iframe seamless ="" name="iframe" src="https://dataandlyrics.com/htmlwidgets/sk_artist_table.html" width="1000" height="1050" ></iframe>
+<iframe seamless ="" name="iframe" src="https://listenlocal.community/post/2020-12-17-demo-slovak-music-database/sk_artist_table.html" width="1000" height="1050" ></iframe>
 
 [Kliknite tu, ak chcete zobraziť tabuľku na samostatnej stránke.](/htmlwidgets/sk_artist_table.html)
 
