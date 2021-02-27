@@ -40,5 +40,5 @@ Vytvorili sme aj zjednodušenú [verziu ] databázy, ktorá sa ľahšie prehliad
 
 <iframe seamless ="" name="iframe" src="https://listenlocal.community/post/2020-12-17-demo-slovak-music-database/sk_artist_table.html" width="1000" height="1050" ></iframe>
 
-[Kliknite tu, ak chcete zobraziť tabuľku na samostatnej stránke.](/htmlwidgets/sk_artist_table.html)
+[Kliknite tu, ak chcete zobraziť tabuľku na samostatnej stránke.](https://listenlocal.community/post/2020-12-17-demo-slovak-music-database/)
 
