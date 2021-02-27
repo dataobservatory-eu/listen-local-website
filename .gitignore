@@ -5,3 +5,5 @@
 /resources/
 public/
 .Rproj.user
+
+static/demo-db/demo-db.db
